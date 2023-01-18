@@ -52,6 +52,5 @@ func main() {
 	router.GET("/albums", getAlbums)
 	router.GET("/albums/:id", getAlbumByID)
 	router.POST("/create-album", postAlbums)
-
 	router.Run("localhost: 8080")
 }
